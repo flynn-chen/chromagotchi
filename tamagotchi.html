@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <!-- App's own CSS !-->
+  <link rel="stylesheet" href="tamagotchi.css">
+</head>
+<body>
+  <h1 style="font-family:'Press Start 2P'">Look after your Tamagotchi!</h1>
+  <div id="levels">
+    <p style="font-family:'Press Start 2P'">Health: <span id="health">loading...</span></p>
+    <p style="font-family:'Press Start 2P'">Happiness: <span id="happiness">loading...</span></p>
+    <p style="font-family:'Press Start 2P'">Boredom: <span id="boredom">loading...</span></p>
+    <p style="font-family:'Press Start 2P'">Hungriness: <span id="hungriness">loading...</span></p>
+    <p style="font-family:'Press Start 2P'">Age: <span id="age">loading...</span> days old</p>
+    <button class="button" id="feed-bread">Bread</button>
+    <button class="button" id="feed-candy">Candy</button>
+    <button class="button" id="feed-medicine">Medicine</button>
+    <button class="button" id="play-game"><a href="rockpaperscissors.html">Play Game!</a></button>
+  </div>
+  <div class="tamagotchi" id="tamagotchi"></div>
+  <div class="dead-tamagotchi" id="dead-tamagotchi"></div>
+  <div class="happy-tamagotchi" id="happy-tamagotchi"></div>
+    <!-- http://jquery.com/ -->
+  <script src="jquery-3.2.1.js"></script>
+    <!-- Javascript !-->
+  <script src="tamagotchi.js"></script>
+
+</body>
+</html>
